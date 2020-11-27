@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE24">
+   <children>
+      <Label layoutX="24.0" layoutY="24.0" prefHeight="20.0" prefWidth="115.0" text="VIEW MARKETS:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TableView layoutX="105.0" layoutY="58.0" prefHeight="236.0" prefWidth="373.0">
+        <columns>
+          <TableColumn prefWidth="118.0" text="STATE" />
+          <TableColumn prefWidth="122.0" text="DISTRICT" />
+            <TableColumn prefWidth="131.0" text="MARKET" />
+        </columns>
+      </TableView>
+      <Button layoutX="447.0" layoutY="307.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="62.0" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

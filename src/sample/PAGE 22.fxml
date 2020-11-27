@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="417.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE22">
+   <children>
+      <Label layoutX="29.0" layoutY="26.0" prefHeight="17.0" prefWidth="140.0" text="VIEW COMMODITIES:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TableView layoutX="144.0" layoutY="45.0" prefHeight="356.0" prefWidth="233.0">
+        <columns>
+          <TableColumn prefWidth="109.0" text="SI NO" />
+          <TableColumn prefWidth="123.0" text="COMMODITY" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

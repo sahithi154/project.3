@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE14">
+   <children>
+      <Label layoutX="17.0" layoutY="32.0" prefHeight="17.0" prefWidth="117.0" text="VIEW DISTRICTS:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="120.0" layoutY="78.0" prefHeight="17.0" prefWidth="66.0" style="-fx-background-color: #87CEEB;" text="State">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="229.0" layoutY="75.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <TableView layoutX="104.0" layoutY="139.0" prefHeight="180.0" prefWidth="300.0">
+        <columns>
+          <TableColumn prefWidth="152.0" text="DISTRICT" />
+          <TableColumn prefWidth="146.0" text="SOIL TYPE" />
+        </columns>
+      </TableView>
+      <Button layoutX="463.0" layoutY="307.0" mnemonicParsing="false" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

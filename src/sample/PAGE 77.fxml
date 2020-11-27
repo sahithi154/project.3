@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE27">
+   <children>
+      <Button layoutX="478.0" layoutY="314.0" mnemonicParsing="false" text="BACK" />
+      <Label layoutX="40.0" layoutY="23.0" prefHeight="17.0" prefWidth="130.0" text="AREAWISE CROPS:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="90.0" prefHeight="17.0" prefWidth="67.0" style="-fx-background-color: #87CEEB;" text="State">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="139.0" prefHeight="17.0" prefWidth="61.0" style="-fx-background-color: #87CEEB;" text="District">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="259.0" layoutY="86.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="259.0" layoutY="135.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Button layoutX="213.0" layoutY="202.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" style="-fx-background-color: #FFFF00;" text="SUBMIT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

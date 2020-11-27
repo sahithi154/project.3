@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE21">
+   <children>
+      <Label layoutX="24.0" layoutY="14.0" prefHeight="20.0" prefWidth="158.0" text="ADD COMMODITIES:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="101.0" prefHeight="17.0" prefWidth="120.0" style="-fx-background-color: #87ceeb;" text="Commodity Name">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="271.0" layoutY="98.0" />
+      <Button layoutX="201.0" layoutY="190.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #FFFF00;" text="SUBMIT">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="432.0" layoutY="293.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

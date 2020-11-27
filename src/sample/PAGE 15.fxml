@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE15">
+   <children>
+      <Label layoutX="9.0" layoutY="18.0" prefHeight="20.0" prefWidth="92.0" text="ADD CROPS:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="81.0" prefHeight="17.0" prefWidth="69.0" style="-fx-background-color: #87CEEB;" text="Soil Name">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="125.0" prefHeight="17.0" prefWidth="52.0" style="-fx-background-color: #87CEEB;" text="Type">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="168.0" prefHeight="17.0" prefWidth="69.0" style="-fx-background-color: #87CEEB;" text="Crop Name">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="216.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #87CEEB;" text="Season">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="198.0" layoutY="266.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #FFFF00;" text="SUBMIT">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <MenuButton layoutX="250.0" layoutY="77.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="250.0" layoutY="121.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Crop" />
+          <MenuItem mnemonicParsing="false" text="Herb" />
+            <MenuItem mnemonicParsing="false" text="Vegetable" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="250.0" layoutY="212.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Rabi" />
+          <MenuItem mnemonicParsing="false" text="Kharif" />
+            <MenuItem mnemonicParsing="false" text="Zaid" />
+        </items>
+      </MenuButton>
+      <TextField layoutX="250.0" layoutY="164.0" />
+      <Button layoutX="472.0" layoutY="296.0" mnemonicParsing="false" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

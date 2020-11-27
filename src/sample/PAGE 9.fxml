@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE9">
+   <children>
+      <Label layoutX="34.0" layoutY="27.0" prefHeight="17.0" prefWidth="128.0" text="UPDATED SOIL LIST:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TableView layoutX="153.0" layoutY="54.0" prefHeight="291.0" prefWidth="282.0">
+        <columns>
+          <TableColumn prefWidth="122.0" text="SI NO" />
+            <TableColumn prefWidth="159.0" text="SOIL NAME" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

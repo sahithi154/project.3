@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="422.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE39">
+   <children>
+      <Label layoutX="189.0" layoutY="39.0" prefHeight="17.0" prefWidth="140.0" style="-fx-background-color: #87CEEB;" text="Welcome..! NGO">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="73.0" prefHeight="17.0" prefWidth="88.0" style="-fx-background-color: #87CEEB;" text="PICK ONE...">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font></Label>
+      <MenuButton layoutX="178.0" layoutY="120.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="88.0" style="-fx-background-color: #FFFF00;" text="Markets">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Add Markets" />
+          <MenuItem mnemonicParsing="false" text="view markets" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="180.0" layoutY="164.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #FFFF00;" text="Reports">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Areawise Crops" />
+          <MenuItem mnemonicParsing="false" text="Soil Based Fertilizers" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="180.0" layoutY="263.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" style="-fx-background-color: #FFFF00;" text="Security">
+        <items>
+          <MenuItem mnemonicParsing="false" text="change password" />
+          <MenuItem mnemonicParsing="false" text="change security question" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="180.0" layoutY="213.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #FFFF00;" text="Mails">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Inbox" />
+          <MenuItem mnemonicParsing="false" text="Sent" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="180.0" layoutY="315.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="93.0" style="-fx-background-color: #FFFF00;" text="Trainings">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Add trainings" />
+          <MenuItem mnemonicParsing="false" text="view trainings" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="184.0" layoutY="365.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="86.0" style="-fx-background-color: #FFFF00;" text="Queries">
+        <items>
+          <MenuItem mnemonicParsing="false" text="view queries" />
+          <MenuItem mnemonicParsing="false" text="post answer" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <Button layoutX="446.0" layoutY="367.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="LOGOUT">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="353.0" prefWidth="618.0" style="-fx-background-color: #ADD9E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE32">
+   <children>
+      <TableView layoutX="32.0" layoutY="33.0" prefHeight="281.0" prefWidth="559.0">
+        <columns>
+          <TableColumn prefWidth="79.0" text="MARKET" />
+          <TableColumn prefWidth="71.0" text="COMMODITY" />
+            <TableColumn prefWidth="75.0" text="ARRIVALS" />
+            <TableColumn prefWidth="89.0" text="ARRIVALDATE" />
+            <TableColumn prefWidth="92.0" text="UNIT OF ARRIVALS" />
+            <TableColumn prefWidth="77.0" text="MIN PRICE" />
+            <TableColumn prefWidth="75.0" text="MAX PRICE" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="353.0" prefWidth="552.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE69">
+   <children>
+      <Button layoutX="455.0" layoutY="303.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="78.0" text="LOG OUT">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="173.0" layoutY="31.0" prefHeight="17.0" prefWidth="154.0" style="-fx-background-color: #87CEEB;" text="    Welcome...! USER">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="59.0" prefHeight="20.0" prefWidth="78.0" style="-fx-background-color: #87CEEB;" text="PICK ONE..">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="78.0" layoutY="106.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Soil Info">
+        <items>
+          <MenuItem mnemonicParsing="false" text="view soils" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="191.0" layoutY="108.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="State Info">
+        <items>
+          <MenuItem mnemonicParsing="false" text="View States" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="306.0" layoutY="108.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="District Info">
+        <items>
+          <MenuItem mnemonicParsing="false" text="View Districts" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="79.0" layoutY="151.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="72.0" style="-fx-background-color: #FFFF00;" text="Crops">
+        <items>
+          <MenuItem mnemonicParsing="false" text="View Crops" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="74.0" layoutY="201.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="96.0" style="-fx-background-color: #FFFF00;" text="Fertilizers">
+        <items>
+          <MenuItem mnemonicParsing="false" text="View Fertilizers" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="79.0" layoutY="255.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="86.0" style="-fx-background-color: #FFFF00;" text="Markets">
+        <items>
+          <MenuItem mnemonicParsing="false" text="View Commodities" />
+          <MenuItem mnemonicParsing="false" text="View Markets" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="80.0" layoutY="303.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Reports">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Areawise Crops" />
+          <MenuItem mnemonicParsing="false" text="Soilbased Fertlizers" />
+            <MenuItem mnemonicParsing="false" text="Commodity Wise" />
+            <MenuItem mnemonicParsing="false" text="Marketwise Daily" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="337.0" layoutY="303.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Queries">
+        <items>
+          <MenuItem mnemonicParsing="false" text="View Queries" />
+          <MenuItem mnemonicParsing="false" text="Post Queries" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="336.0" layoutY="151.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Trainings">
+        <items>
+          <MenuItem mnemonicParsing="false" text="View Trainings" />
+          <MenuItem mnemonicParsing="false" text="Request Trainings" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="336.0" layoutY="201.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Mails">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Inbox" />
+          <MenuItem mnemonicParsing="false" text="Sent" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="335.0" layoutY="255.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Security">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Change Password" />
+          <MenuItem mnemonicParsing="false" text="Change Security Question" />
+        </items>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </MenuButton>
+      <Label layoutX="14.0" layoutY="112.0" prefHeight="17.0" prefWidth="42.0" style="-fx-background-color: #FFFF00;" text="SOILS" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="353.0" prefWidth="590.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE30">
+   <children>
+      <Label layoutX="194.0" layoutY="32.0" prefHeight="19.0" prefWidth="172.0" text="FERTILIZER INFORMATION">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TableView layoutX="24.0" layoutY="77.0" prefHeight="250.0" prefWidth="543.0">
+        <columns>
+          <TableColumn prefWidth="99.0" text="SOILNAME" />
+          <TableColumn prefWidth="98.0" text="UREA(N)" />
+            <TableColumn prefWidth="100.0" text="DAP(P205)" />
+            <TableColumn prefWidth="92.0" text="MOP(K)" />
+            <TableColumn prefWidth="176.0" text="TOTAL MIXTURE" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

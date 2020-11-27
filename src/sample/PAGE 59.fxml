@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE59">
+   <children>
+      <Button layoutX="479.0" layoutY="308.0" mnemonicParsing="false" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="25.0" layoutY="26.0" prefHeight="19.0" prefWidth="106.0" text="POST ANSWER:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="88.0" prefHeight="17.0" prefWidth="91.0" style="-fx-background-color: #87CEEB;" text="Query No">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="97.0" layoutY="153.0" prefHeight="17.0" prefWidth="91.0" style="-fx-background-color: #87CEEB;" text="Answer">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="220.0" prefHeight="17.0" prefWidth="91.0" style="-fx-background-color: #87CEEB;" text="Submitted By">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="240.0" layoutY="84.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="185.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <TextField layoutX="240.0" layoutY="149.0" prefHeight="25.0" prefWidth="185.0" />
+      <TextField layoutX="240.0" layoutY="216.0" prefHeight="25.0" prefWidth="185.0" />
+      <Button layoutX="188.0" layoutY="276.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #FFFF00;" text="SUBMIT">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

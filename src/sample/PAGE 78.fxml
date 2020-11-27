@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE28">
+   <children>
+      <TableView layoutX="86.0" layoutY="37.0" prefHeight="277.0" prefWidth="397.0">
+        <columns>
+          <TableColumn prefWidth="130.0" text="SOIL NAME" />
+          <TableColumn prefWidth="140.0" text="CROP NAME" />
+            <TableColumn prefWidth="125.0" text="SEASON" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

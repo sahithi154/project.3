@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE35">
+   <children>
+      <Button layoutX="480.0" layoutY="314.0" mnemonicParsing="false" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="43.0" layoutY="35.0" prefHeight="17.0" prefWidth="76.0" text="INBOX:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TableView layoutX="89.0" layoutY="77.0" prefHeight="226.0" prefWidth="402.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="FROM" />
+          <TableColumn prefWidth="250.0" text="SUBJECT" />
+            <TableColumn prefWidth="76.0" text="SENT DATE" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

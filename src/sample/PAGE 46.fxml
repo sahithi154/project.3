@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PAGE29">
+   <children>
+      <Label layoutX="20.0" layoutY="24.0" prefHeight="20.0" prefWidth="177.0" text="SOIL BASED FERTILIZERS:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="98.0" prefHeight="17.0" prefWidth="82.0" style="-fx-background-color: #87CEEB;" text="State">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="148.0" prefHeight="17.0" prefWidth="89.0" style="-fx-background-color: #87CEEB;" text="District">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="190.0" prefHeight="17.0" prefWidth="89.0" style="-fx-background-color: #87CEEB;" text="Type">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="234.0" prefHeight="17.0" prefWidth="89.0" style="-fx-background-color: #87CEEB;" text="Season">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="219.0" layoutY="283.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" style="-fx-background-color: #FFFF00;" text="SUBMIT">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <MenuButton layoutX="252.0" layoutY="94.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="252.0" layoutY="144.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="252.0" layoutY="186.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="252.0" layoutY="230.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Button layoutX="476.0" layoutY="312.0" mnemonicParsing="false" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
